@@ -1,0 +1,65 @@
+.top-navigation{
+    display: flex;
+    border-bottom: 1px solid #DBE5E0;
+    margin-left: 5px;
+}
+.noti-link{
+    width: 100%;
+    text-align: center;
+    margin: 0px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Abhaya Libre", serif;
+    padding: 16px 0px 13px 0px;
+}
+.noti-link.active{
+    border-bottom: 3px solid #E5E8EB;
+    color: #5988FF;
+}
+.side-padding{
+    padding-left: 20px;
+}
+
+.main-content-box-notification{
+    padding: 20px 0px 20px 0px;
+    width: 100%;
+    overflow-y: auto;
+    height: calc(100vh - 40px);
+}
+.notification-box{
+    margin-top: 20px;
+}
+.notification{
+    display: flex;
+    padding: 10px 16px;
+}
+.noti-icon{
+    width: 20px;
+}
+.noti-icon-box{
+    width: 48px;
+    height: 48px;
+    background-color: #ADB9B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.noti-text-box{
+    margin-left: 17px;
+    margin-top: 2px;
+}
+.noti-text-1{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin: 0;
+}
+.noti-text-2{
+    color: #5988FF;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin: 0;
+}

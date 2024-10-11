@@ -1,0 +1,194 @@
+
+.alarm_scheduler_heading_2 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-top: 45px;
+}
+
+.alarm_CO2_scheduler_heading_2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin-top: 45px;
+}
+
+.alarm_scheduler_heading_3 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    margin-top: 65px;
+}
+
+
+.alarm_CO2_scheduler_heading_3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin-top: 10px;
+}
+
+.alarm_scheduler_range_heading {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+}
+.alarm-heading-scheculer{
+    font-size: 32px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+}
+.alarm-para-scheculer{
+    font-size: 14px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+    color: #5988FF;
+}
+
+
+
+
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.checkbox-container {
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    width: 100%;
+    border: 1px solid #DBE5E0;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border: 2px solid #DBE5E0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.select-dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 10px;
+    display: none;
+}
+
+.checkbox-container input:checked+.dot .select-dot {
+    display: block;
+}
+
+.checkbox-container input:checked + .dot {
+    border: 2px solid #000000;
+}
+
+
+.checkbox-container span {
+    position: relative;
+    padding-left: 16px;
+}
+
+
+.timings{
+    margin-top: 30px;
+}
+
+.timings_CO2{
+    margin-top: 30px;
+    background-color: #ECECEC80;
+    padding: 12px 16px;
+    width: calc(100% + 15px);
+    margin-left: -15px;
+}
+
+.time-1{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+}
+.time-2{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    color: #5988FF;
+    margin: 0;
+}
+.end-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif;
+    color: #5988FF;
+    margin: 0;
+}
+
+
+
+
+.time-1_CO2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin: 0;
+}
+.time-2_CO2{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    color: #5988FF;
+    margin: 0;
+}
+.end-text_CO2{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    color: #5988FF;
+    margin: 0;
+
+}
+
+
+
+
+.save-btn-box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 12px;
+}
+.save-btn-box button{
+    padding: 0px 16px 0px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    border: none;
+    background-color: #5988FF;
+    width: 84px;
+    height: 40px;
+    border-radius: 15px;
+}

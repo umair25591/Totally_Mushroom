@@ -1,0 +1,87 @@
+.control-heading{
+    font-size: 32px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 700;
+}
+.control-para{
+    font-size: 14px;
+    font-family: "Abhaya Libre", serif;
+    font-weight: 400;
+    color: #5988FF;
+}
+.category-box{
+    margin-left: -16px;
+    border-bottom: 1px solid #DBE5E0;
+    width: calc(100% + 16px);
+}
+.cat-ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 16px;
+}
+.cat-ul li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    padding: 10px 0px;
+    cursor: pointer;
+    color: #5988FF;
+}
+
+.cat-ul .active{
+    color: black;
+    border-bottom: 3px solid #E5E8EB;
+}
+
+.cat-ul li:not(:first-child) {
+    margin-left: 32px;
+    
+}
+.latest-head{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin-top: 30px;
+}
+.today-head{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Abhaya Libre", serif;
+    margin: 15px 0px;
+    margin-top: 22px;
+}
+.data{
+    padding: 15px 13px 15px 28px;
+}
+.data-box{
+    margin-left: -16px;
+    width: calc(100% + 16px);
+    background-color: #ECECEC80;
+}
+.data-icon{
+    width: 24px;
+}
+.texts{
+    margin-left: 25px;
+}
+.time{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
+.name{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    font-family: "Abhaya Libre", serif;
+    color: #5988FF;
+}
+.result{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+}
